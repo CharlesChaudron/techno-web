@@ -1,15 +1,9 @@
 <template>
-    <!--div>
+    <div>
         <input type="number" v-model="km">
         <input type="number" v-model="m">
         <input type="number" v-model="cm">
         <input type="number" v-model="mm">
-    </div-->
-    <div>
-        <input type="number" v-model="{{km}}">
-        <input type="number" v-model="{{m}}">
-        <input type="number" v-model="{{cm}}">
-        <input type="number" v-model="{{mm}}">
     </div>
 </template>
 
@@ -26,7 +20,7 @@ export default defineComponent({
             mm:0,
         }
     },
-    /*watch: {
+    watch: {
         km: function (val) {
             this.m = val*1000
         },
@@ -40,11 +34,6 @@ export default defineComponent({
         },
         mm: function (val) {
             this.km = val/1000/1000
-        }
-    }*/
-    computed: {
-        km: {
-            
         }
     }
 

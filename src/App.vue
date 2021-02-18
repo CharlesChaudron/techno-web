@@ -9,6 +9,8 @@
   <hr>
   <todoList></todoList>
   <hr>
+  <formProgress></formProgress>
+  <hr>
 </template>
 
 <script lang="ts">
@@ -19,10 +21,11 @@ import formulaire from './components/formulaire.vue'
 import caroussel from './components/caroussel.vue'
 import todoList from './components/todoList.vue'
 import elementList from './components/elementList.vue'
+import formProgress from './components/formProgress.vue'
 
 export default defineComponent({
   name: 'App',
-  components: { calculatrice, distance, formulaire, caroussel, todoList, elementList },
+  components: { calculatrice, distance, formulaire, caroussel, todoList, elementList, formProgress },
 })
 
 </script>
